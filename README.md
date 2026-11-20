@@ -1,6 +1,10 @@
-<img src=".claude-plugin/icon.png" alt="pixmint icon" width="96" align="right">
+<p align="center">
+  <img src=".claude-plugin/icon.png" alt="pixmint icon" width="128">
+</p>
 
-# pixmint
+<h1 align="center">pixmint</h1>
+
+<p align="center">Generate and edit images, SVGs and animated GIFs from Claude Code with the OpenAI Images API.</p>
 
 A [Claude Code](https://code.claude.com) plugin that lets Claude generate and edit images with the [OpenAI Images API](https://developers.openai.com/api/docs/guides/image-generation) using your own OpenAI API key: photos, illustrations, hero images, sprites, textures, mockups, transparent cutouts, SVG logos and illustrations, animated GIFs, and edits of existing pictures (masks, reference images, markup overlays).
 
