@@ -6,7 +6,7 @@
 
 <p align="center">Generate and edit images, SVGs and animated GIFs from Claude Code with the OpenAI Images API.</p>
 
-A [Claude Code](https://code.claude.com) plugin that lets Claude generate and edit images with the [OpenAI Images API](https://developers.openai.com/api/docs/guides/image-generation) using your own OpenAI API key: photos, illustrations, hero images, sprites, textures, mockups, transparent cutouts, SVG logos and illustrations, animated GIFs, and edits of existing pictures (masks, reference images, markup overlays).
+A [Claude Code](https://code.claude.com) plugin for the [OpenAI Images API](https://developers.openai.com/api/docs/guides/image-generation) that works with your own OpenAI API key. It covers photos, illustrations, hero images, sprites, textures, mockups, transparent cutouts, SVG logos and illustrations, animated GIFs, and edits of existing pictures (masks, reference images, markup overlays).
 
 Claude writes a structured prompt, starts with a cheap draft, runs the bundled CLI, opens the result to check it against your request, and reports the file path, the prompt and the cost of the call.
 
