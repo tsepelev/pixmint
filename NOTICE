@@ -1,0 +1,25 @@
+pixmint
+Copyright 2026 Sergey Tsepelev
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software derived from the `imagegen` skill bundled with
+OpenAI Codex, licensed under the Apache License, Version 2.0.
+
+Changes from the original:
+- skills/image/scripts/remove_chroma_key.py: unchanged.
+- skills/image/scripts/image_gen.py: modified (marked in the file header) —
+  default model gpt-image-2.6-flare; model families (Sunburst/Flare 2.5/2.6,
+  gpt-image-2*, legacy); xhigh/max quality; --complexity; --markup edits with
+  overlay checks; SVG output (--svg-model, --svg-effort, svg_usage report) and
+  animated GIF output (--frame-count, --frame-duration-ms); per-job validation
+  in generate-batch; usage and cost report after each call.
+- skills/image/scripts/run.sh, pyproject.toml, uv.lock: new (pinned runtime).
+- skills/image/SKILL.md: rewritten for Claude Code (API path is primary).
+- skills/image/references/cli.md: rebuilt from the original cli.md and
+  image-api.md and updated to the OpenAI image generation guide (2026-11).
+- skills/image/references/prompting.md, sample-prompts.md: Codex built-in tool
+  references removed; model and transparency notes updated.
+
+pixmint is not affiliated with or endorsed by OpenAI or Anthropic.
+"OpenAI", "GPT" and "Codex" are trademarks of OpenAI.

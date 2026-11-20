@@ -1,0 +1,14 @@
+{
+  "name": "pixmint",
+  "owner": {
+    "name": "Sergey Tsepelev",
+    "url": "https://github.com/tsepelev"
+  },
+  "plugins": [
+    {
+      "name": "pixmint",
+      "source": "./",
+      "description": "Generate and edit images, SVGs and animated GIFs with the OpenAI Images API from Claude Code."
+    }
+  ]
+}

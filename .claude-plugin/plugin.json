@@ -1,0 +1,14 @@
+{
+  "name": "pixmint",
+  "displayName": "pixmint",
+  "version": "0.1.0",
+  "description": "Generate and edit images, SVGs and animated GIFs with the OpenAI Images API (GPT Image 2.6 Sunburst/Flare) from Claude Code, using your own OpenAI API key.",
+  "author": {
+    "name": "Sergey Tsepelev",
+    "url": "https://github.com/tsepelev"
+  },
+  "homepage": "https://github.com/tsepelev/pixmint",
+  "repository": "https://github.com/tsepelev/pixmint",
+  "license": "Apache-2.0",
+  "keywords": ["image-generation", "openai", "gpt-image", "svg", "gif", "image-editing"]
+}

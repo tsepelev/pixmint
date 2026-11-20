@@ -1,0 +1,12 @@
+[project]
+name = "pixmint-scripts"
+version = "0.1.0"
+description = "Pinned runtime for the pixmint image skill scripts"
+requires-python = ">=3.12"
+dependencies = [
+    "openai==3.57.0",
+    "pillow==13.0.0",
+]
+
+[tool.uv]
+package = false
