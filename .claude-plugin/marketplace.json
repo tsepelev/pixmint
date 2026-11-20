@@ -4,6 +4,9 @@
     "name": "Sergey Tsepelev",
     "url": "https://github.com/tsepelev"
   },
+  "metadata": {
+    "description": "pixmint: generate and edit images, SVGs and animated GIFs with the OpenAI Images API from Claude Code."
+  },
   "plugins": [
     {
       "name": "pixmint",
